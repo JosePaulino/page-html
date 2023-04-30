@@ -12,7 +12,6 @@ body{
   margin: auto;
 }
 
-
 .area{
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./imagem/4.webp);
   height: 100vh;
@@ -49,7 +48,7 @@ body{
 }
 
 .logo img{
-  width: 50px;
+  width: 100%;
   padding: 15px 0;
 }
 
@@ -91,6 +90,32 @@ body{
 .texto a:hover{
   background: #fff;
   color: #000;
+}
+
+/*Responsive*/
+
+@media (max-width: 800px){
+  .menu{
+    width: 100%;
+  }
+  .logo{
+    float: none;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .links{
+    float: none;
+    margin-top: 0;
+    text-align: center;
+  }
+  .links li a{
+    padding: 5px;
+    font-size: 11px;
+  }
+
+
 }
 
 
